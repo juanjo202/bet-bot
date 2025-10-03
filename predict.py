@@ -28,6 +28,6 @@ for match in data.get("response", []):
         prob_implicita = 1 / cuota * 100
 
         # 🔹 Ejemplo de filtro simple
-        if cuota:
+if cuota:
     print("La cuota existe")
 
