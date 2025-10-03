@@ -27,7 +27,6 @@ for match in data.get("response", []):
         cuota = float(odd["odd"])
         prob_implicita = 1 / cuota * 100
 
-        # 🔹 Ejemplo de filtro simple
-if cuota:
-    print("La cuota existe")
-
+        # Ejemplo de filtro simple
+        if cuota:
+            print(f"La cuota existe: {cuota}")
